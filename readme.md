@@ -8,7 +8,7 @@
 <a href="https://github.com/zqx123321/OucFly#maven%E5%AF%BC%E5%85%A5"><img src="https://img.shields.io/badge/maven%20github-v1.0.0-brightgreen.svg" alt="Maven Github"></a>
 </p>
 
-<p align="center"><h4>高性能、可拓展、功能齐全，全功率模式下开4线程爬取50人的信息只需1秒</h4></p>
+<p align="center"><h4 align="center">高性能、可拓展、功能齐全，全功率模式下开4线程爬取50人的信息只需1秒</h4></p>
 
 ## 1.Jar包导入
 
