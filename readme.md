@@ -1,6 +1,6 @@
 # OucFly——基于Java的中国海洋大学教务助手
 
-![rocket-launch](C:\Users\zqx\Desktop\img\rocket-launch.png)
+![rocket-launch](img/rocket-launch.png)
 
 > #### **高性能、可拓展、功能齐全，全功率模式下开4线程爬取50人的信息只需1秒**
 
