@@ -2,138 +2,44 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="38da40b5-0c44-4364-ac36-a57a0e9c8665" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/ouctechnology/oucfly/core/Host.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/ouctechnology/oucfly/core/HostSet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/ouctechnology/oucfly/core/Mode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/ouctechnology/oucfly/core/OucFly.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/ouctechnology/oucfly/encryption/EncryptionUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/ouctechnology/oucfly/exception/OucException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/ouctechnology/oucfly/http/HttpParams.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/ouctechnology/oucfly/http/OkCookie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/ouctechnology/oucfly/http/OkHttpUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/ouctechnology/oucfly/operator/Operator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/ouctechnology/oucfly/operator/XnXq.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/ouctechnology/oucfly/operator/coin/Coin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/ouctechnology/oucfly/operator/coin/CoinClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/ouctechnology/oucfly/operator/coin/CoinClassEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/ouctechnology/oucfly/operator/coin/CoinEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/ouctechnology/oucfly/operator/dept/Dept.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/ouctechnology/oucfly/operator/dept/DeptEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/ouctechnology/oucfly/operator/dept/DeptFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/ouctechnology/oucfly/operator/dept/DeptParams.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/ouctechnology/oucfly/operator/exam/Exam.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/ouctechnology/oucfly/operator/exam/ExamEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/ouctechnology/oucfly/operator/exam/ExamParams.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/ouctechnology/oucfly/operator/grade/Grade.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/ouctechnology/oucfly/operator/grade/GradeCalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/ouctechnology/oucfly/operator/grade/GradeDetail.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/ouctechnology/oucfly/operator/grade/GradeDetailEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/ouctechnology/oucfly/operator/grade/GradeScore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/ouctechnology/oucfly/operator/grade/GradeScoreEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/ouctechnology/oucfly/operator/grade/GradeYear.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/ouctechnology/oucfly/operator/login/Login.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/ouctechnology/oucfly/operator/login/LoginParams.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/ouctechnology/oucfly/operator/order/ClassOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/ouctechnology/oucfly/operator/order/ClassOrderParams.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/ouctechnology/oucfly/operator/order/MajorOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/ouctechnology/oucfly/operator/order/OrderEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/ouctechnology/oucfly/operator/query/Query.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/ouctechnology/oucfly/operator/query/QueryEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/ouctechnology/oucfly/operator/query/QueryParams.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/ouctechnology/oucfly/operator/student/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/ouctechnology/oucfly/operator/student/StudentClassFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/ouctechnology/oucfly/operator/student/StudentCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/ouctechnology/oucfly/operator/student/StudentDeptFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/ouctechnology/oucfly/operator/student/StudentEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/ouctechnology/oucfly/operator/student/StudentFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/ouctechnology/oucfly/operator/student/StudentParams.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/ouctechnology/oucfly/operator/table/ClassTable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/ouctechnology/oucfly/operator/table/ClassTableEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/ouctechnology/oucfly/operator/token/Token.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/ouctechnology/oucfly/operator/token/TokenEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/ouctechnology/oucfly/result/Result.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/logback-test.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/logback.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/cn/ouctechnology/oucfly/1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/cn/ouctechnology/oucfly/OucFlyTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/ouctechnology/oucfly/core/Host.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/ouctechnology/oucfly/core/HostSet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/ouctechnology/oucfly/core/Mode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/ouctechnology/oucfly/core/OucFly$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/ouctechnology/oucfly/core/OucFly$OucFlyBuilder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/ouctechnology/oucfly/core/OucFly.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/ouctechnology/oucfly/encryption/EncryptionUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/ouctechnology/oucfly/exception/OucException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/ouctechnology/oucfly/http/HttpParams.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/ouctechnology/oucfly/http/OkCookie.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/ouctechnology/oucfly/http/OkHttpUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/ouctechnology/oucfly/operator/Operator.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/ouctechnology/oucfly/operator/XnXq$Xq.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/ouctechnology/oucfly/operator/XnXq.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/ouctechnology/oucfly/operator/coin/Coin.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/ouctechnology/oucfly/operator/coin/CoinClass$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/ouctechnology/oucfly/operator/coin/CoinClass$CoinTask.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/ouctechnology/oucfly/operator/coin/CoinClass.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/ouctechnology/oucfly/operator/coin/CoinClassEntity.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/ouctechnology/oucfly/operator/coin/CoinEntity.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/ouctechnology/oucfly/operator/dept/Dept.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/ouctechnology/oucfly/operator/dept/DeptEntity.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/ouctechnology/oucfly/operator/dept/DeptFilter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/ouctechnology/oucfly/operator/dept/DeptParams$DeptParamsBuilder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/ouctechnology/oucfly/operator/dept/DeptParams.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/ouctechnology/oucfly/operator/exam/Exam$ExamType.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/ouctechnology/oucfly/operator/exam/Exam.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/ouctechnology/oucfly/operator/exam/ExamEntity.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/ouctechnology/oucfly/operator/exam/ExamParams$ExamParamsBuilder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/ouctechnology/oucfly/operator/exam/ExamParams.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/ouctechnology/oucfly/operator/grade/Grade$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/ouctechnology/oucfly/operator/grade/Grade$XnXqType$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/ouctechnology/oucfly/operator/grade/Grade$XnXqType$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/ouctechnology/oucfly/operator/grade/Grade$XnXqType.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/ouctechnology/oucfly/operator/grade/Grade.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/ouctechnology/oucfly/operator/grade/GradeCalculator$GCEntry.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/ouctechnology/oucfly/operator/grade/GradeCalculator.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/ouctechnology/oucfly/operator/grade/GradeDetail.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/ouctechnology/oucfly/operator/grade/GradeDetailEntity.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/ouctechnology/oucfly/operator/grade/GradeScore.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/ouctechnology/oucfly/operator/grade/GradeScoreEntity.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/ouctechnology/oucfly/operator/grade/GradeYear.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/ouctechnology/oucfly/operator/login/Login.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/ouctechnology/oucfly/operator/login/LoginParams$LoginParamsBuilder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/ouctechnology/oucfly/operator/login/LoginParams.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/ouctechnology/oucfly/operator/order/ClassOrder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/ouctechnology/oucfly/operator/order/ClassOrderParams$ClassOrderParamsBuilder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/ouctechnology/oucfly/operator/order/ClassOrderParams.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/ouctechnology/oucfly/operator/order/MajorOrder$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/ouctechnology/oucfly/operator/order/MajorOrder$GradeTask.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/ouctechnology/oucfly/operator/order/MajorOrder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/ouctechnology/oucfly/operator/order/OrderEntity.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/ouctechnology/oucfly/operator/query/Query$ClassType.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/ouctechnology/oucfly/operator/query/Query.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/ouctechnology/oucfly/operator/query/QueryEntity.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/ouctechnology/oucfly/operator/query/QueryParams$QueryParamsBuilder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/ouctechnology/oucfly/operator/query/QueryParams.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/ouctechnology/oucfly/operator/student/Student.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/ouctechnology/oucfly/operator/student/StudentClassFilter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/ouctechnology/oucfly/operator/student/StudentCode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/ouctechnology/oucfly/operator/student/StudentDeptFilter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/ouctechnology/oucfly/operator/student/StudentEntity.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/ouctechnology/oucfly/operator/student/StudentFilter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/ouctechnology/oucfly/operator/student/StudentParams$StudentParamsBuilder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/ouctechnology/oucfly/operator/student/StudentParams.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/ouctechnology/oucfly/operator/table/ClassTable.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/ouctechnology/oucfly/operator/table/ClassTableEntity.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/ouctechnology/oucfly/operator/token/Token.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/ouctechnology/oucfly/operator/token/TokenEntity.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/cn/ouctechnology/oucfly/result/Result.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/logback-test.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/logback.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/cn/ouctechnology/oucfly/OucFlyTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/cn/ouctechnology/oucfly/OucFlyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cn/ouctechnology/oucfly/OucFlyTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/ouctechnology/oucfly/operator/coin/Coin.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/ouctechnology/oucfly/operator/coin/Coin.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/ouctechnology/oucfly/operator/coin/CoinClass$CoinTask.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/ouctechnology/oucfly/operator/coin/CoinClass$CoinTask.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/ouctechnology/oucfly/operator/coin/CoinClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/ouctechnology/oucfly/operator/coin/CoinClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/ouctechnology/oucfly/operator/coin/CoinClassEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/ouctechnology/oucfly/operator/coin/CoinClassEntity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/ouctechnology/oucfly/operator/coin/CoinEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/ouctechnology/oucfly/operator/coin/CoinEntity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/ouctechnology/oucfly/operator/dept/DeptEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/ouctechnology/oucfly/operator/dept/DeptEntity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/ouctechnology/oucfly/operator/exam/Exam$ExamType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/ouctechnology/oucfly/operator/exam/Exam$ExamType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/ouctechnology/oucfly/operator/exam/Exam.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/ouctechnology/oucfly/operator/exam/Exam.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/ouctechnology/oucfly/operator/exam/ExamEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/ouctechnology/oucfly/operator/exam/ExamEntity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/ouctechnology/oucfly/operator/grade/Grade$XnXqType$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/ouctechnology/oucfly/operator/grade/Grade$XnXqType$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/ouctechnology/oucfly/operator/grade/Grade$XnXqType$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/ouctechnology/oucfly/operator/grade/Grade$XnXqType$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/ouctechnology/oucfly/operator/grade/Grade$XnXqType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/ouctechnology/oucfly/operator/grade/Grade$XnXqType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/ouctechnology/oucfly/operator/grade/Grade.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/ouctechnology/oucfly/operator/grade/Grade.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/ouctechnology/oucfly/operator/grade/GradeCalculator$GCEntry.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/ouctechnology/oucfly/operator/grade/GradeCalculator$GCEntry.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/ouctechnology/oucfly/operator/grade/GradeCalculator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/ouctechnology/oucfly/operator/grade/GradeCalculator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/ouctechnology/oucfly/operator/grade/GradeDetail.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/ouctechnology/oucfly/operator/grade/GradeDetail.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/ouctechnology/oucfly/operator/grade/GradeScore.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/ouctechnology/oucfly/operator/grade/GradeScore.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/ouctechnology/oucfly/operator/grade/GradeScoreEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/ouctechnology/oucfly/operator/grade/GradeScoreEntity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/ouctechnology/oucfly/operator/login/Login.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/ouctechnology/oucfly/operator/login/Login.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/ouctechnology/oucfly/operator/order/ClassOrder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/ouctechnology/oucfly/operator/order/ClassOrder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/ouctechnology/oucfly/operator/order/MajorOrder$GradeTask.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/ouctechnology/oucfly/operator/order/MajorOrder$GradeTask.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/ouctechnology/oucfly/operator/order/MajorOrder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/ouctechnology/oucfly/operator/order/MajorOrder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/ouctechnology/oucfly/operator/order/OrderEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/ouctechnology/oucfly/operator/order/OrderEntity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/ouctechnology/oucfly/operator/query/Query$ClassType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/ouctechnology/oucfly/operator/query/Query$ClassType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/ouctechnology/oucfly/operator/query/Query.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/ouctechnology/oucfly/operator/query/Query.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/ouctechnology/oucfly/operator/query/QueryEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/ouctechnology/oucfly/operator/query/QueryEntity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/ouctechnology/oucfly/operator/student/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/ouctechnology/oucfly/operator/student/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/ouctechnology/oucfly/operator/student/StudentClassFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/ouctechnology/oucfly/operator/student/StudentClassFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/ouctechnology/oucfly/operator/student/StudentEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/ouctechnology/oucfly/operator/student/StudentEntity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/ouctechnology/oucfly/operator/student/StudentFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/ouctechnology/oucfly/operator/student/StudentFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/ouctechnology/oucfly/operator/table/ClassTable.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/ouctechnology/oucfly/operator/table/ClassTable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/ouctechnology/oucfly/operator/table/ClassTableEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/ouctechnology/oucfly/operator/table/ClassTableEntity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/ouctechnology/oucfly/operator/token/Token.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/ouctechnology/oucfly/operator/token/Token.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/ouctechnology/oucfly/result/Result.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/ouctechnology/oucfly/result/Result.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/cn/ouctechnology/oucfly/OucFlyTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/cn/ouctechnology/oucfly/OucFlyTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -153,29 +59,29 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="gitignore" value="1" />
-          <entry key="java" value="49" />
-          <entry key="xml" value="1" />
+          <entry key="java" value="50" />
+          <entry key="xml" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="49" />
+          <entry key="JAVA" value="50" />
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="XML" value="1" />
+          <entry key="XML" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="gitignore" value="21" />
           <entry key="java" value="1824" />
-          <entry key="xml" value="2" />
+          <entry key="xml" value="85" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JAVA" value="1824" />
           <entry key="PLAIN_TEXT" value="21" />
-          <entry key="XML" value="2" />
+          <entry key="XML" value="85" />
         </counts>
       </usages-collector>
     </session>
@@ -183,28 +89,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/ouctechnology/oucfly/operator/student/StudentParams.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="14">
-              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/ouctechnology/oucfly/operator/student/StudentCode.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="18" column="39" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/cn/ouctechnology/oucfly/operator/table/ClassTable.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-1125">
-              <caret line="27" column="22" lean-forward="true" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
+              <caret line="27" column="22" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -249,7 +137,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/cn/ouctechnology/oucfly/result/Result.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="84">
-              <caret line="80" column="23" lean-forward="true" selection-start-line="80" selection-start-column="23" selection-end-line="80" selection-end-column="23" />
+              <caret line="80" column="23" selection-start-line="80" selection-start-column="23" selection-end-line="80" selection-end-column="23" />
               <folding>
                 <element signature="e#575#576#0" expanded="true" />
                 <element signature="e#628#629#0" expanded="true" />
@@ -270,7 +158,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="25">
@@ -279,16 +167,39 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="158">
+              <caret line="101" column="61" selection-start-line="101" selection-start-column="61" selection-end-line="101" selection-end-column="61" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/cn/ouctechnology/oucfly/OucFlyTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="193">
+              <caret line="153" column="23" selection-start-line="153" selection-start-column="23" selection-end-line="153" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/cn/ouctechnology/oucfly/operator/token/TokenEntity.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="219">
-              <caret line="11" column="26" lean-forward="true" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+              <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>repositories</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -296,7 +207,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/cn/ouctechnology/oucfly/operator/coin/CoinEntity.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/ouctechnology/oucfly/operator/coin/CoinClassEntity.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/ouctechnology/oucfly/operator/coin/Coin.java" />
@@ -329,6 +239,8 @@
         <option value="$PROJECT_DIR$/src/main/java/cn/ouctechnology/oucfly/operator/token/Token.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/ouctechnology/oucfly/result/Result.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/test/java/cn/ouctechnology/oucfly/OucFlyTest.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -344,6 +256,27 @@
         <option name="importAutomatically" value="true" />
       </MavenImportingSettings>
     </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="oucfly" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="oucfly" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="oucfly" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="676" />
@@ -364,6 +297,32 @@
               <item name="ocufly" type="b2602c69:ProjectViewProjectNode" />
               <item name="oucfly" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="ocufly" type="b2602c69:ProjectViewProjectNode" />
+              <item name="oucfly" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ocufly" type="b2602c69:ProjectViewProjectNode" />
+              <item name="oucfly" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ocufly" type="b2602c69:ProjectViewProjectNode" />
+              <item name="oucfly" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ocufly" type="b2602c69:ProjectViewProjectNode" />
+              <item name="oucfly" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="oucfly" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -374,9 +333,13 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544329245993" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544331634249" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -423,7 +386,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1544325722774</updated>
-      <workItem from="1544325726173" duration="2873000" />
+      <workItem from="1544325726173" duration="5262000" />
     </task>
     <servers />
   </component>
@@ -433,13 +396,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2873000" />
+    <option name="totallyTimeSpent" value="5262000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25037822" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25037822" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -448,12 +411,12 @@
       <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.10902896" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.0" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.42078364" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.2337884" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.42662117" />
       <window_info anchor="bottom" id="Tool Output" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Statistic" order="10" weight="0.60477" />
@@ -466,7 +429,7 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Maven Projects" order="5" sideWeight="0.49769586" weight="0.123298034" />
+      <window_info active="true" anchor="right" id="Maven Projects" order="5" sideWeight="0.49769586" visible="true" weight="0.014372163" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
@@ -480,20 +443,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/cn/ouctechnology/oucfly/OucFlyTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="36" column="17" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/ouctechnology/oucfly/core/Host.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-61">
@@ -786,7 +735,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/ouctechnology/oucfly/operator/table/ClassTable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1125">
-          <caret line="27" column="22" lean-forward="true" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
+          <caret line="27" column="22" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -814,7 +763,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/ouctechnology/oucfly/operator/token/TokenEntity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="219">
-          <caret line="11" column="26" lean-forward="true" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+          <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
         </state>
       </provider>
     </entry>
@@ -828,7 +777,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/ouctechnology/oucfly/result/Result.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
-          <caret line="80" column="23" lean-forward="true" selection-start-line="80" selection-start-column="23" selection-end-line="80" selection-end-column="23" />
+          <caret line="80" column="23" selection-start-line="80" selection-start-column="23" selection-end-line="80" selection-end-column="23" />
           <folding>
             <element signature="e#575#576#0" expanded="true" />
             <element signature="e#628#629#0" expanded="true" />
@@ -855,12 +804,98 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/cn/ouctechnology/oucfly/OucFlyTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="153" column="23" selection-start-line="153" selection-start-column="23" selection-end-line="153" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="101" column="61" selection-start-line="101" selection-start-column="61" selection-end-line="101" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>oucfly</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: ch.qos.logback:logback-classic:1.2.3</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
