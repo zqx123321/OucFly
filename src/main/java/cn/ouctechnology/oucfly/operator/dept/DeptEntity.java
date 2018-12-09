@@ -14,5 +14,4 @@ public class DeptEntity {
     private String name;
     //院系代码
     private String code;
-
 }
