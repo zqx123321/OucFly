@@ -2,7 +2,7 @@
 
 <p align="center"><img width="200" src="img/rocket-launch.png" alt="Vue logo"></p>
 
-<p align="center">
+<div align="center">
   <a href="https://github.com/zqx123321/OucFly/blob/master/"><img src="https://img.shields.io/github/license/zqx123321/OucFly.svg" alt="Build Status"></a>
 
 
@@ -11,7 +11,7 @@
 
   <a href="https://github.com/zqx123321/OucFly#maven%E5%AF%BC%E5%85%A5"><img src="https://img.shields.io/badge/maven%20github-v1.0.0-brightgreen.svg" alt="Maven Github"></a>
 
-</p>
+</div>
 
 
 > #### **高性能、可拓展、功能齐全，全功率模式下开4线程爬取50人的信息只需1秒**
