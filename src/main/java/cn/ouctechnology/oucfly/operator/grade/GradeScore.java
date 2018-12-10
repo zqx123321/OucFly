@@ -19,6 +19,9 @@ import java.util.stream.Collectors;
  * @description: 获取指定学期加权平均分
  **/
 public class GradeScore extends Grade<GradeScoreEntity> {
+
+    private Integer year;
+
     /**
      * 3个构造函数
      *
@@ -41,6 +44,15 @@ public class GradeScore extends Grade<GradeScoreEntity> {
         super();
     }
 
+    public GradeScore(Integer year) {
+        this.year = year;
+    }
+
+    public GradeScore(String userCode, Integer year) {
+        super(userCode);
+        this.year = year;
+    }
+
     @Override
     public Result<GradeScoreEntity> parserHtml(String content) {
         try {
@@ -54,9 +66,12 @@ public class GradeScore extends Grade<GradeScoreEntity> {
             gradeScoreEntity.setUserCode(userCode.substring(userCode.indexOf("：") + 1));
             String userName = infos.get(4).text();
             gradeScoreEntity.setUserName(userName.substring(userName.indexOf("：") + 1));
-
+            Map<String, GradeCalculator.GCEntry> gradeScoreEntryMap;
             //遍历所有学期
-            Map<String, GradeCalculator.GCEntry> gradeScoreEntryMap = getMap(document);
+            if (year == null)
+                gradeScoreEntryMap = getMap(document);
+            else
+                gradeScoreEntryMap = getMapYear(document);
             //转换成数组
             List<GradeCalculator.GCEntry> scoreEntryList = gradeScoreEntryMap.entrySet()
                     .stream()
@@ -77,7 +92,7 @@ public class GradeScore extends Grade<GradeScoreEntity> {
     /**
      * 将所有的成绩以课程名称为Key存入Map
      */
-    public Map<String, GradeCalculator.GCEntry> getMap(Document document) {
+    private Map<String, GradeCalculator.GCEntry> getMap(Document document) {
         Elements tbodys = document.getElementsByTag("tbody");
         Map<String, GradeCalculator.GCEntry> gradeScoreEntryMap = new HashMap<>();
         for (Element tbody : tbodys) {
@@ -89,12 +104,34 @@ public class GradeScore extends Grade<GradeScoreEntity> {
     }
 
     /**
+     * 将所有的成绩以课程名称为Key存入Map,学年
+     */
+    private Map<String, GradeCalculator.GCEntry> getMapYear(Document document) {
+        //遍历所有学期
+        Elements tables = document.getElementsByTag("table");
+        Map<String, GradeCalculator.GCEntry> gradeScoreEntryMap = new HashMap<>();
+        for (int i = 0; i < tables.size(); i += 2) {
+            Element table = tables.get(i);
+            Element td = table.getElementsByTag("td").get(0);
+            if (td.text().contains(year + "")) {
+                Element nextTable = tables.get(i + 1);
+                Element tbody = nextTable.getElementsByTag("tbody").get(0);
+                //取出该学期所有成绩
+                Elements trs = tbody.getElementsByTag("tr");
+                transferTr(gradeScoreEntryMap, trs);
+            }
+        }
+        return gradeScoreEntryMap;
+    }
+
+
+    /**
      * 转化每一条成绩信息
      *
      * @param gradeScoreEntryMap
      * @param trs
      */
-    protected void transferTr(Map<String, GradeCalculator.GCEntry> gradeScoreEntryMap, Elements trs) {
+    private void transferTr(Map<String, GradeCalculator.GCEntry> gradeScoreEntryMap, Elements trs) {
         for (Element tr : trs) {
             Elements tds = tr.getElementsByTag("td");
             //剔除不正确的tbody
@@ -119,5 +156,4 @@ public class GradeScore extends Grade<GradeScoreEntity> {
             gradeScoreEntryMap.put(name, gradeScoreEntry);
         }
     }
-
 }

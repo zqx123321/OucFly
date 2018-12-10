@@ -19,15 +19,18 @@ import java.util.List;
  * @description: 获取考试安排
  **/
 public class Exam extends Operator<List<ExamEntity>> {
-    //期中期末类型枚举
+    //期中期末缓考类型枚举
     public enum ExamType {
-        MID(2), FINAL(3);
+        MID(3),     //期中考试
+        FINAL(2),   //期末考试
+        MAKE_UP(1); //开学初补缓考
         private int code;
 
         ExamType(int code) {
             this.code = code;
         }
     }
+
     //学号
     private String userCode;
 

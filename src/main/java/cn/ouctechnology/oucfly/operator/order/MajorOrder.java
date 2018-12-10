@@ -4,7 +4,6 @@ import cn.ouctechnology.oucfly.operator.Operator;
 import cn.ouctechnology.oucfly.operator.XnXq;
 import cn.ouctechnology.oucfly.operator.grade.GradeScore;
 import cn.ouctechnology.oucfly.operator.grade.GradeScoreEntity;
-import cn.ouctechnology.oucfly.operator.grade.GradeYear;
 import cn.ouctechnology.oucfly.operator.student.StudentCode;
 import cn.ouctechnology.oucfly.operator.student.StudentDeptFilter;
 import cn.ouctechnology.oucfly.result.Result;
@@ -53,13 +52,13 @@ public class MajorOrder extends Operator<OrderEntity> {
      * @return
      */
     private GradeScore getGradeScore() {
-        if (year != null) return new GradeYear(year);
+        if (year != null) return new GradeScore(year);
         if (xnXq != null) return new GradeScore(xnXq);
         return new GradeScore();
     }
 
     private GradeScore getGradeScore(String userCode) {
-        if (year != null) return new GradeYear(userCode, year);
+        if (year != null) return new GradeScore(userCode, year);
         if (xnXq != null) return new GradeScore(userCode, xnXq);
         return new GradeScore(userCode);
     }
