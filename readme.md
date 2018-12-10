@@ -31,21 +31,20 @@
     - [创建举例](#创建举例)
   - [5. Operator对象](#5-operator对象)
   - [6. Result对象](#6-result对象)
-  - [7. 获取院系列表（Dept）](#7-获取院系列表（dept）)
-  - [8. 获取学生列表（StudentList）](#8-获取学生列表（studentlist）)
-  - [9. 获取学生学号（StudentCode）](#9-获取学生学号（studentcode）)
-  - [10. 查找学生（Student）](#10-查找学生（student）)
-  - [11. 获取成绩信息（GradeDetail）](#11-获取成绩信息（gradedetail）)
-  - [12. 获取加权平均分(GradeScore）](#12-获取加权平均分gradescore）)
-  - [13. 获取专业排名（MajorOrder）](#13-获取专业排名（majororder）)
-  - [14. 获取某门课的成绩排名（ClassOrder）](#14-获取某门课的成绩排名（classorder）)
-  - [15. 获取课表（ClassTable）](#15-获取课表（classtable）)
-  - [16. 获取某门课某个学生投入的选课币（Coin）](#16-获取某门课某个学生投入的选课币（coin）)
-  - [17. 获取某门课所有选课学生投入的选课币（CoinClass）](#17-获取某门课所有选课学生投入的选课币（coinclass）)
-  - [18. 获取考试安排（Exam）](#18-获取考试安排（exam）)
-  - [19. 根据名字查询课程信息（Query）](#19-根据名字查询课程信息（query）)
+  - [7. 获取院系列表(Dept)](#7-获取院系列表dept)
+  - [8. 获取学生列表(StudentList)](#8-获取学生列表studentlist)
+  - [9. 获取学生学号(StudentCode)](#9-获取学生学号studentcode)
+  - [10. 查找学生(Student)](#10-查找学生student)
+  - [11. 获取成绩信息(GradeDetail)](#11-获取成绩信息gradedetail)
+  - [12. 获取加权平均分(GradeScore)](#12-获取加权平均分gradescore)
+  - [13. 获取专业排名(MajorOrder)](#13-获取专业排名majororder)
+  - [14. 获取某门课的成绩排名(ClassOrder)](#14-获取某门课的成绩排名classorder)
+  - [15. 获取课表(ClassTable)](#15-获取课表classtable)
+  - [16. 获取某门课某个学生投入的选课币(Coin)](#16-获取某门课某个学生投入的选课币coin)
+  - [17. 获取某门课所有选课学生投入的选课币(CoinClass)](#17-获取某门课所有选课学生投入的选课币coinclass)
+  - [18. 获取考试安排(Exam)](#18-获取考试安排exam)
+  - [19. 根据名字查询课程信息(Query)](#19-根据名字查询课程信息query)
   - [20. 二次开发指南](#20-二次开发指南)
-
 
 
 
@@ -146,15 +145,15 @@ public enum Mode {
 
 #### 全功率模式
 
-全功率模式（FULL_POWER）同时使用上述4个入口，效率最高，这也是系统默认的工作模式
+全功率模式(FULL_POWER)同时使用上述4个入口，效率最高，这也是系统默认的工作模式
 
 #### 校外模式
 
-校外模式（OUTSIDE_ONLY）只使用了可以在校外访问的前两个入口
+校外模式(OUTSIDE_ONLY)只使用了可以在校外访问的前两个入口
 
 #### 自定义模式
 
-自定义模式（ASSIGN_SELF）允许用于自己制定系统可用的入口
+自定义模式(ASSIGN_SELF)允许用于自己制定系统可用的入口
 
 ### 工作线程
 
@@ -216,7 +215,7 @@ Result<List<GradeDetailEntity>> result = oucFly.run(operator);
 
 ![1544360264847](img/1544360264847.png)
 
-## 7. 获取院系列表（Dept）
+## 7. 获取院系列表(Dept)
 
 获取学院信息：
 
@@ -263,16 +262,16 @@ Result<List<DeptEntity>> run = oucFly.run(dept);
 ```java
 @Data
 public class DeptEntity {
-    //院系（专业）名称
+    //院系(专业)名称
     private String name;
-    //院系（专业）代码
+    //院系(专业)代码
     private String code;
 }
 ```
 
 **如果使用模糊匹配需要保证匹配结果的唯一性，如果不唯一程序会抛出异常，告知调用者重复项有哪些，进而可以让调用者进行更精确的匹配**
 
-## 8. 获取学生列表（StudentList）
+## 8. 获取学生列表(StudentList)
 
 此功能可以获取一个院系中的学生信息或者一门课选课学生的信息，创建需要传入一个过滤器StudentFilter，StudenFilter是一个抽象类，它有两个子类：StudentDeptFilter和StudentClassFilter，分别表示获取院系学生信息和选课学生信息
 
@@ -320,11 +319,11 @@ public class StudentEntity {
 }
 ```
 
-## 9. 获取学生学号（StudentCode）
+## 9. 获取学生学号(StudentCode)
 
 此功能单元与上一个获取学生列表相似，只是返回的结果中只有学号，不带有其他冗余信息，此功能单元适合作为中间结果为更高级的功能单元服务，比如获取院系排名、获取课程选课币等操作均需要先执行此功能获取学号后再执行下一步操作
 
-## 10. 查找学生（Student）
+## 10. 查找学生(Student)
 
 此功能单元可以根据学号或者姓名查找匹配的学生信息
 
@@ -368,7 +367,7 @@ if (result.isSuccess()) {
     System.out.println(result.getContent());
 }
 ```
-## 11. 获取成绩信息（GradeDetail）
+## 11. 获取成绩信息(GradeDetail)
 
 此功能可以获取任意一个学生的成绩信息，可以设置学年学期，入学以来等等，比如：
 
@@ -406,12 +405,12 @@ public class GradeDetailEntity {
     private String type;
     //取得分数
     private float grade;
-    //获取方式（初修、重修、缓考）
+    //获取方式(初修、重修、缓考)
     private String mode;
 }
 ```
 
-## 12. 获取加权平均分(GradeScore）
+## 12. 获取加权平均分(GradeScore)
 
 此功能可以获取任意一个学生的成绩信息，可以设置学年、学年学期、入学以来等等，比如：
 
@@ -464,7 +463,7 @@ public class GradeScoreEntity {
 }
 ```
 
-## 13. 获取专业排名（MajorOrder） 
+## 13. 获取专业排名(MajorOrder) 
 
 此功能可以获取某个专业的排名，可以指定学年，学期，入学以来等，创建此类需要一个院系过滤器StudentDeptFilter来选择是哪个专业，上文中已经介绍过这个类了，例如：
 
@@ -521,7 +520,7 @@ public class OrderEntity {
 
 **此功能返回结果没有进行任何排序操作，此功能可以使用多线程进行，如果需要，可以在创建OucFly对象的时候指定多线程，另外，此功能需要发送大量请求，并且不保证全部成功，请通过返回结果中的all与success来判断成功数**
 
-## 14. 获取某门课的成绩排名（ClassOrder）
+## 14. 获取某门课的成绩排名(ClassOrder)
 
 此功能可以获取选修某门课的同学这门课程的成绩信息，必须在这门课出成绩后才能查询到，例如获取2016年春季学期选课号为456的这门课的成绩信息：
 
@@ -535,7 +534,7 @@ if (result.isSuccess()) {
 
 **此功能返回结果没有进行任何排序操作，与上一个功能不同，此功能能够保证获取到所有选课学生的成绩**
 
-## 15. 获取课表（ClassTable） 
+## 15. 获取课表(ClassTable) 
 
 此功能可以获取任意一个学生任意一个学期的课表信息，例如
 
@@ -550,7 +549,7 @@ if (result.isSuccess()) {
 }
 ```
 
-**返回类型是一个ClassTableEntity的三维数组，如下图所示，三维数组的第一维代表行，第二维代表列，第三维代表一个格子中的多门课程（可能不止一门）**
+**返回类型是一个ClassTableEntity的三维数组，如下图所示，三维数组的第一维代表行，第二维代表列，第三维代表一个格子中的多门课程(可能不止一门)**
 
 ![1544424914372](img/1544424914372.png)
 
@@ -572,7 +571,7 @@ public class ClassTableEntity {
 }
 ```
 
-## 16. 获取某门课某个学生投入的选课币（Coin）
+## 16. 获取某门课某个学生投入的选课币(Coin)
 
 此功能可以查询某一门课某个学生选这门课投入的选课币，此功能经常作为中间操作为查询某门课所有学生的选课数据所服务，例如查询学号为123的学生给2016年春季学期选课号为456的这门课投入的选课币：
 
@@ -597,7 +596,7 @@ public class CoinEntity {
 }
 ```
 
-## 17. 获取某门课所有选课学生投入的选课币（CoinClass）
+## 17. 获取某门课所有选课学生投入的选课币(CoinClass)
 
 此功能可以获取某一门课所有选课学生投入的选课币，创建需要制定学年学期和8位的选课号，例如获取2016年春季学期选课号为456的这门课所有选课学生的选课情况：
 
@@ -626,7 +625,7 @@ public class CoinClassEntity {
 
 **此功能返回结果没有进行任何排序操作，此功能可以使用多线程进行，如果需要，可以在创建OucFly对象的时候指定多线程，另外，此功能需要发送大量请求，并且不保证全部成功，请通过返回结果中的all与success来判断成功数**
 
-## 18. 获取考试安排（Exam）
+## 18. 获取考试安排(Exam)
 
 此功能可以获取任意一个学生任意一个学期的考试安排，创建此对象需要一个枚举对象，用来表示期中期末还是补缓考:
 
@@ -687,12 +686,12 @@ public class ExamEntity {
     private String examPlace;
     //考试座号
     private String examSeat;
-    //考试方式（统一、非同一、提前等）
+    //考试方式(统一、非同一、提前等)
     private String examType;
 }
 ```
 
-## 19. 根据名字查询课程信息（Query）
+## 19. 根据名字查询课程信息(Query)
 
 此功能实现的是教务处中的"教务处查询"功能，如下图所示：
 
