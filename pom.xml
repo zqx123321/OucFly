@@ -6,8 +6,7 @@
 
     <groupId>cn.ouctechnology</groupId>
     <artifactId>oucfly</artifactId>
-    <version>1.0-SNAPSHOT</version>
-
+    <version>1.0.0</version>
 
 
     <dependencies>
@@ -138,7 +137,6 @@
             <url>https://raw.githubusercontent.com/zqx123321/OucFly/master/repository</url>
         </repository>
     </repositories>
-
 
 
 </project>

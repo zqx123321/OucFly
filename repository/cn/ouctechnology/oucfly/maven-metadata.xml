@@ -3,10 +3,12 @@
   <groupId>cn.ouctechnology</groupId>
   <artifactId>oucfly</artifactId>
   <versioning>
+    <release>1.0.0</release>
     <versions>
       <version>1.0-SNAPSHOT</version>
       <version>1.1-SNAPSHOT</version>
+      <version>1.0.0</version>
     </versions>
-    <lastUpdated>20181209064258</lastUpdated>
+    <lastUpdated>20181210043146</lastUpdated>
   </versioning>
 </metadata>

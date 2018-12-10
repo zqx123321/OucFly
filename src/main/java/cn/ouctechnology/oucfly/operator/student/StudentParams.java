@@ -22,8 +22,6 @@ public class StudentParams extends HttpParams {
 
     private String yhdm;
 
-    private String xm;
-
     private String sel_skbjdm;
 
     private XnXq xnxq;

@@ -17,6 +17,7 @@ import java.util.List;
  * @create: 2018-12-06 19:22
  * @description: 院系过滤器
  **/
+@SuppressWarnings("all")
 public class DeptFilter {
     private Logger logger = LoggerFactory.getLogger(DeptFilter.class);
     //年级，必须指定

@@ -2,7 +2,6 @@ package cn.ouctechnology.oucfly.operator.order;
 
 import cn.ouctechnology.oucfly.operator.Operator;
 import cn.ouctechnology.oucfly.operator.XnXq;
-import cn.ouctechnology.oucfly.operator.dept.DeptFilter;
 import cn.ouctechnology.oucfly.operator.grade.GradeScore;
 import cn.ouctechnology.oucfly.operator.grade.GradeScoreEntity;
 import cn.ouctechnology.oucfly.operator.grade.GradeYear;
@@ -28,23 +27,23 @@ import java.util.concurrent.locks.LockSupport;
  **/
 public class MajorOrder extends Operator<OrderEntity> {
 
-    private DeptFilter deptFilter;
+    private StudentDeptFilter deptFilter;
 
     private XnXq xnXq;
 
     private Integer year;
 
-    public MajorOrder(DeptFilter deptFilter, XnXq xnXq) {
+    public MajorOrder(StudentDeptFilter deptFilter, XnXq xnXq) {
         this.deptFilter = deptFilter;
         this.xnXq = xnXq;
     }
 
-    public MajorOrder(DeptFilter deptFilter, int year) {
+    public MajorOrder(StudentDeptFilter deptFilter, int year) {
         this.deptFilter = deptFilter;
         this.year = year;
     }
 
-    public MajorOrder(DeptFilter deptFilter) {
+    public MajorOrder(StudentDeptFilter deptFilter) {
         this.deptFilter = deptFilter;
     }
 
@@ -67,7 +66,7 @@ public class MajorOrder extends Operator<OrderEntity> {
 
     @Override
     public Result<OrderEntity> run(String host) {
-        StudentCode studentCode = new StudentCode(new StudentDeptFilter(deptFilter));
+        StudentCode studentCode = new StudentCode(deptFilter);
         Result<List<String>> studentRes = oucFly.run(studentCode);
         if (!studentRes.isSuccess()) return Result.fail("get student list fail: " + studentRes.getErrorMsg());
         List<String> codeList = studentRes.getContent();
