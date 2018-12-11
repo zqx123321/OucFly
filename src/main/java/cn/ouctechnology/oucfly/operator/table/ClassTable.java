@@ -59,7 +59,7 @@ public class ClassTable extends Operator<List<List<List<ClassTableEntity>>>> {
                     for (Element div : divs) {
                         //此处包含&nbsp不间断空格
                         String[] infos = div.text().split("(\\s|\\u00A0)+");
-                        if (infos[infos.length - 1].equals("选中")) {
+                        if (infos[infos.length - 1].equals("选中") || infos[infos.length - 1].equals("预选中")) {
                             //填充属性
                             ClassTableEntity classTableEntity = new ClassTableEntity();
                             classTableEntity.setClassName(infos[0]);
