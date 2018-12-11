@@ -75,7 +75,7 @@ dependencies {
 
 ### lib导入
 
-可以从 https://github.com/zqx123321/OucFly/blob/master/repository/cn/ouctechnology/oucfly/1.0.0/oucfly-1.0.0.jar 下载Jar包，导入后add as library即可
+直接下载目录下的oucfly.jar，导入后add as library即可
 
 ## 2. 快速开始
 
