@@ -11,27 +11,7 @@
   <component name="ChangeListManager">
     <list default="true" id="38da40b5-0c44-4364-ac36-a57a0e9c8665" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/repository/cn/ouctechnology/oucfly/maven-metadata.xml" beforeDir="false" afterPath="$PROJECT_DIR$/repository/cn/ouctechnology/oucfly/maven-metadata.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/repository/cn/ouctechnology/oucfly/maven-metadata.xml.md5" beforeDir="false" afterPath="$PROJECT_DIR$/repository/cn/ouctechnology/oucfly/maven-metadata.xml.md5" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/repository/cn/ouctechnology/oucfly/maven-metadata.xml.sha1" beforeDir="false" afterPath="$PROJECT_DIR$/repository/cn/ouctechnology/oucfly/maven-metadata.xml.sha1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/ouctechnology/oucfly/http/HttpParams.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/ouctechnology/oucfly/http/HttpParams.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/ouctechnology/oucfly/http/OkHttpUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/ouctechnology/oucfly/http/OkHttpUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/ouctechnology/oucfly/operator/coin/Coin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/ouctechnology/oucfly/operator/coin/Coin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/ouctechnology/oucfly/operator/dept/DeptFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/ouctechnology/oucfly/operator/dept/DeptFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/ouctechnology/oucfly/operator/exam/Exam.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/ouctechnology/oucfly/operator/exam/Exam.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/ouctechnology/oucfly/operator/grade/Grade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/ouctechnology/oucfly/operator/grade/Grade.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/ouctechnology/oucfly/operator/grade/GradeDetail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/ouctechnology/oucfly/operator/grade/GradeDetail.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/ouctechnology/oucfly/operator/grade/GradeScore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/ouctechnology/oucfly/operator/grade/GradeScore.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/ouctechnology/oucfly/operator/login/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/ouctechnology/oucfly/operator/login/Login.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/ouctechnology/oucfly/operator/order/ClassOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/ouctechnology/oucfly/operator/order/ClassOrder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/ouctechnology/oucfly/operator/query/Query.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/ouctechnology/oucfly/operator/query/Query.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/ouctechnology/oucfly/operator/student/StudentCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/ouctechnology/oucfly/operator/student/StudentCode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/ouctechnology/oucfly/operator/student/StudentDeptFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/ouctechnology/oucfly/operator/student/StudentDeptFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/ouctechnology/oucfly/operator/student/StudentList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/ouctechnology/oucfly/operator/student/StudentList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/ouctechnology/oucfly/operator/table/ClassTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/ouctechnology/oucfly/operator/table/ClassTable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/ouctechnology/oucfly/operator/token/Token.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/ouctechnology/oucfly/operator/token/Token.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/logback-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/logback-test.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/logback.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -73,6 +53,7 @@
           <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.18" value="1" />
           <entry key="project.open.time.19" value="1" />
+          <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.20" value="1" />
           <entry key="project.open.time.22" value="3" />
           <entry key="project.open.time.24" value="1" />
@@ -83,7 +64,7 @@
           <entry key="project.open.time.4" value="2" />
           <entry key="project.open.time.40" value="1" />
           <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="19" />
+          <entry key="project.opened" value="20" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -92,22 +73,22 @@
           <entry key="class" value="2" />
           <entry key="gitignore" value="1" />
           <entry key="html" value="1" />
-          <entry key="java" value="144" />
+          <entry key="java" value="145" />
           <entry key="md" value="7" />
           <entry key="md5" value="1" />
           <entry key="sha1" value="1" />
-          <entry key="xml" value="16" />
+          <entry key="xml" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="2" />
           <entry key="HTML" value="1" />
-          <entry key="JAVA" value="144" />
+          <entry key="JAVA" value="145" />
           <entry key="Markdown" value="7" />
           <entry key="PLAIN_TEXT" value="3" />
           <entry key="UML" value="3" />
-          <entry key="XML" value="16" />
+          <entry key="XML" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -115,7 +96,7 @@
           <entry key="gitignore" value="21" />
           <entry key="java" value="8309" />
           <entry key="md" value="73" />
-          <entry key="xml" value="130" />
+          <entry key="xml" value="134" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -123,13 +104,35 @@
           <entry key="JAVA" value="8309" />
           <entry key="Markdown" value="73" />
           <entry key="PLAIN_TEXT" value="21" />
-          <entry key="XML" value="130" />
+          <entry key="XML" value="134" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1725">
+              <caret line="69" column="36" selection-start-line="69" selection-start-column="36" selection-end-line="69" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/cn/ouctechnology/oucfly/OucFlyTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="74">
+              <caret line="158" column="67" selection-start-line="158" selection-start-column="67" selection-end-line="158" selection-end-column="67" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -200,13 +203,13 @@
         <option value="$PROJECT_DIR$/src/test/java/cn/ouctechnology/oucfly/TestN.java" />
         <option value="$PROJECT_DIR$/readme.md" />
         <option value="$PROJECT_DIR$/src/main/java/cn/ouctechnology/oucfly/operator/table/ClassTable.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/cn/ouctechnology/oucfly/OucFlyTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/ouctechnology/oucfly/operator/order/ClassOrder.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/ouctechnology/oucfly/operator/coin/Coin.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/ouctechnology/oucfly/operator/grade/Grade.java" />
         <option value="$PROJECT_DIR$/src/main/resources/logback.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/logback-test.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/cn/ouctechnology/oucfly/OucFlyTest.java" />
       </list>
     </option>
   </component>
@@ -250,8 +253,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -450,15 +451,12 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="oucfly" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="ocufly" type="b2602c69:ProjectViewProjectNode" />
-              <item name="oucfly" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -619,6 +617,7 @@
       <workItem from="1545311433326" duration="956000" />
       <workItem from="1545359778726" duration="189000" />
       <workItem from="1545360886073" duration="1940000" />
+      <workItem from="1545446922071" duration="245000" />
     </task>
     <servers />
   </component>
@@ -655,7 +654,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="74677000" />
+    <option name="totallyTimeSpent" value="74922000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -668,8 +667,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2632375" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26701966" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -683,7 +683,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32935154" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.35153583" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.034129694" />
       <window_info anchor="bottom" id="Tool Output" order="8" weight="0.32935154" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Statistic" order="10" weight="0.6040956" />
@@ -696,7 +696,7 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Maven Projects" order="5" sideWeight="0.49462366" weight="0.15658094" />
+      <window_info anchor="right" id="Maven Projects" order="5" sideWeight="0.49462366" visible="true" weight="0.15658094" />
       <window_info anchor="right" id="Database" order="6" sideWeight="0.4948718" weight="0.32980332" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
@@ -932,13 +932,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2900">
-          <caret line="116" column="44" selection-start-line="116" selection-start-column="44" selection-end-line="116" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_152/src.zip!/java/lang/Float.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="575">
@@ -1037,10 +1030,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1725">
+          <caret line="69" column="36" selection-start-line="69" selection-start-column="36" selection-end-line="69" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/cn/ouctechnology/oucfly/OucFlyTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="42" column="24" lean-forward="true" selection-start-line="42" selection-start-column="24" selection-end-line="42" selection-end-column="24" />
+        <state relative-caret-position="74">
+          <caret line="158" column="67" selection-start-line="158" selection-start-column="67" selection-end-line="158" selection-end-column="67" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
