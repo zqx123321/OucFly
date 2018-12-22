@@ -51,6 +51,7 @@ public class Coin extends Operator<CoinEntity> {
         logger.debug("encode params: {}", params);
         try {
             String content = OkHttpUtil.get(url, refer, params);
+            logger.info("get the response: {}", content);
             Document document = Jsoup.parse(content);
             Element tbody = document.getElementsByTag("tbody").get(0);
             Elements trs = tbody.getElementsByTag("tr");
@@ -65,9 +66,9 @@ public class Coin extends Operator<CoinEntity> {
             //该学生没选这门课
             return Result.fail("can not find the class: " + classCode);
         } catch (OucException e) {
-            return Result.fail("get class table error" + e);
+            return Result.fail("get class table error: " + e);
         } catch (Exception e) {
-            return Result.fail("parse response error" + e);
+            return Result.fail("parse response error: " + e);
         }
     }
 }

@@ -56,9 +56,8 @@ public class Exam extends Operator<List<ExamEntity>> {
                 .build();
         try {
             String content = OkHttpUtil.post(url, refer, params);
-
+            logger.trace("get the response: {}", content);
             Document document = Jsoup.parse(content);
-
             Elements classNames = document.select("[name=kc]");
             Elements classScores = document.select("[name=xf]");
             Elements classTypes = document.select("[name=lb]");
@@ -84,9 +83,9 @@ public class Exam extends Operator<List<ExamEntity>> {
             }
             return Result.success(examEntities);
         } catch (OucException e) {
-            return Result.fail("get class table error" + e);
+            return Result.fail("get class table error: " + e);
         } catch (Exception e) {
-            return Result.fail("parse response error" + e);
+            return Result.fail("parse response error: " + e);
         }
     }
 }

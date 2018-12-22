@@ -16,6 +16,7 @@ import org.jsoup.select.Elements;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Objects;
 
 /**
  * @program: oucfly
@@ -39,17 +40,19 @@ public class ClassOrder extends Operator<OrderEntity> {
         String url = host + "wjstgdfw/cjlr.ckxscj.fkcaskbjckcj_rptOrigina_data_exp.jsp";
         String refer = host + "wjstgdfw/cjlr.ckxscj.fkcaskbjckcj_rpt.jsp";
         //自动获取课程代码
-        String kcdm = getKcdm(host);
-        if (kcdm == null) return Result.fail("get the kcdm of class: " + classCode + " fail");
-        logger.info("success got the kcdm: {}", kcdm);
-        ClassOrderParams params = ClassOrderParams.builder()
-                .xn(xnXq.getXn())
-                .xq(xnXq.getXq().ordinal())
-                .kcdm(kcdm)
-                .skbjdm(classCode)
-                .build();
         try {
+            String kcdm = getKcdm(host);
+            if (kcdm == null) return Result.fail("get the kcdm of class: " + classCode + " fail");
+            logger.info("success got the kcdm: {}", kcdm);
+            ClassOrderParams params = ClassOrderParams.builder()
+                    .xn(xnXq.getXn())
+                    .xq(xnXq.getXq().ordinal())
+                    .kcdm(kcdm)
+                    .skbjdm(classCode)
+                    .build();
+
             String content = OkHttpUtil.post(url, refer, params);
+            logger.trace("get the response: {}", content);
             Document document = Jsoup.parse(content);
             //获取学分
             Element scoreDiv = document.select("[group]").get(0);
@@ -68,7 +71,12 @@ public class ClassOrder extends Operator<OrderEntity> {
                 gradeScoreEntity.setUserCode(tds.get(1).text());
                 gradeScoreEntity.setUserName(tds.get(2).text());
                 gradeScoreEntity.setMajor(tds.get(4).text());
-                gradeScoreEntity.setGrade(Float.parseFloat(tds.get(10).text()));
+                float grade = 0F;
+                String text = tds.get(10).text();
+                if (text != null && !Objects.equals("", text)) {
+                    grade = Float.parseFloat(text);
+                }
+                gradeScoreEntity.setGrade(grade);
                 gradeScoreEntity.setScore(score);
                 gradeScoreEntityList.add(gradeScoreEntity);
             }
@@ -78,9 +86,9 @@ public class ClassOrder extends Operator<OrderEntity> {
             orderEntity.setData(gradeScoreEntityList);
             return Result.success(orderEntity);
         } catch (OucException e) {
-            return Result.fail("get grade list error" + e);
+            return Result.fail("get grade list error: " + e);
         } catch (Exception e) {
-            return Result.fail("parse response error" + e);
+            return Result.fail("parse response error: " + e);
         }
     }
 
@@ -96,19 +104,24 @@ public class ClassOrder extends Operator<OrderEntity> {
         if (!studentRes.isSuccess()) throw new OucException("get student code fail " + studentRes.getErrorMsg());
         List<String> codeList = studentRes.getContent();
         for (String stuCode : codeList) {
-            String params = "params=" + EncryptionUtil.encodeBase64(baseParams + stuCode);
-            String content = OkHttpUtil.get(url, refer, params);
-            Document document = Jsoup.parse(content);
-            Element tbody = document.getElementsByTag("tbody").get(0);
-            Elements trs = tbody.getElementsByTag("tr");
-            for (Element tr : trs) {
-                Elements tds = tr.getElementsByTag("td");
-                String code = tds.get(0).text();
-                //成功获取
-                if (code.equals(classCode)) {
-                    String className = tds.get(1).text();
-                    return className.substring(1, 13);
+            try {
+                String params = "params=" + EncryptionUtil.encodeBase64(baseParams + stuCode);
+                String content = OkHttpUtil.get(url, refer, params);
+                logger.trace("get the response: {}", content);
+                Document document = Jsoup.parse(content);
+                Element tbody = document.getElementsByTag("tbody").get(0);
+                Elements trs = tbody.getElementsByTag("tr");
+                for (Element tr : trs) {
+                    Elements tds = tr.getElementsByTag("td");
+                    String code = tds.get(0).text();
+                    //成功获取
+                    if (code.equals(classCode)) {
+                        String className = tds.get(1).text();
+                        return className.substring(1, 13);
+                    }
                 }
+            } catch (Exception ignored) {
+
             }
         }
         //没获取到

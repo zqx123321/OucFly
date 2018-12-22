@@ -42,7 +42,7 @@ public abstract class HttpParams {
             }
         } catch (IntrospectionException | IllegalAccessException | InvocationTargetException e) {
             e.printStackTrace();
-            logger.error("error: {}", e);
+            logger.error("error", e);
         }
         return bodyBuilder.build();
     }
@@ -72,7 +72,7 @@ public abstract class HttpParams {
             }
         } catch (IntrospectionException | IllegalAccessException | InvocationTargetException e) {
             e.printStackTrace();
-            logger.error("error: {}", e);
+            logger.error("error", e);
         }
         return sb.toString();
     }

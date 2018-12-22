@@ -84,7 +84,7 @@ public class GradeScore extends Grade<GradeScoreEntity> {
             return Result.success(gradeScoreEntity);
 
         } catch (Exception e) {
-            logger.error("parser the response error: {}", e);
+            logger.error("parser the response error", e);
             return Result.fail("parser the response error: " + e);
         }
     }

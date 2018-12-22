@@ -21,6 +21,7 @@ public class Token extends Operator<TokenEntity> {
         String url = host + "custom/js/SetKingoEncypt.jsp";
         try {
             String content = OkHttpUtil.get(url);
+            logger.trace("get the response: {}", content);
             //正则匹配，包含一个捕获组
             String regex = "= '(.*)';";
             Pattern pattern = Pattern.compile(regex);

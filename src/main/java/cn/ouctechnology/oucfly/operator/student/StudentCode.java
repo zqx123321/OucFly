@@ -35,13 +35,14 @@ public class StudentCode extends Operator<List<String>> {
         try {
             StudentParams params = filter.getParams(host);
             content = OkHttpUtil.postHttpClient(url, refer, params.toString());
+            logger.trace("get the response: {}", content);
             Document document = Jsoup.parse(content);
             Elements codeList = document.select("[name=yhxh]");
             List<String> codes = codeList.stream().map(Element::text).collect(Collectors.toList());
             return Result.success(codes);
         } catch (OucException e) {
-            logger.error("get students error: {}", e);
-            return Result.fail("get students error" + e);
+            logger.error("get students error", e);
+            return Result.fail("get students error: " + e);
         } catch (Exception e) {
             return Result.fail("parse response error:" + e);
         }

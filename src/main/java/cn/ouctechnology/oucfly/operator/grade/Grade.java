@@ -109,8 +109,9 @@ public abstract class Grade<T> extends Operator<T> implements Cloneable {
             param = EncryptionUtil.getEncParams(param, tokenEntity.getNowTime(), tokenEntity.getDesKey());
             logger.debug("encode params: {}", param);
             content = OkHttpUtil.get(url, refer, param);
+            logger.trace("get the response: {}", content);
         } catch (OucException e) {
-            logger.error("get grade error: {}", e);
+            logger.error("get grade error", e);
             return Result.fail("get grade error: " + e);
         } finally {
             lock.unlock();

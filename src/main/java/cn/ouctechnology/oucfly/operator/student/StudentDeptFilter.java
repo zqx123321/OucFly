@@ -112,12 +112,13 @@ public class StudentDeptFilter implements StudentFilter {
         String refer = host + "core/popmsg/popmsg.sendOnlineMessage.jsp";
         try {
             String content = OkHttpUtil.post(url, refer, params);
+            logger.trace("get the response: {}", content);
             List<DeptEntity> deptEntities = JSON.parseArray(content, DeptEntity.class);
             return Result.success(deptEntities);
         } catch (OucException e) {
-            return Result.fail("get dept list error" + e);
+            return Result.fail("get dept list error: " + e);
         } catch (JSONException e) {
-            return Result.fail("parse response error" + e);
+            return Result.fail("parse response error: " + e);
         }
     }
 

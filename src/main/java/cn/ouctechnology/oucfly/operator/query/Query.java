@@ -87,6 +87,7 @@ public class Query extends Operator<List<QueryEntity>> {
 
         try {
             String content = OkHttpUtil.postHttpClient(url, refer, paramStr);
+            logger.trace("get the response: {}", content);
             Document document = Jsoup.parse(content);
             Elements schools = document.select("[name=xqmc]");
             Elements teachers = document.select("[name=rkjs]");
@@ -130,9 +131,9 @@ public class Query extends Operator<List<QueryEntity>> {
             }
             return Result.success(queryEntities);
         } catch (OucException e) {
-            return Result.fail("get query info error" + e);
+            return Result.fail("get query info error: " + e);
         } catch (Exception e) {
-            return Result.fail("parse response error" + e);
+            return Result.fail("parse response error: " + e);
         }
     }
 }

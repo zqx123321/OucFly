@@ -57,15 +57,16 @@ public class Login extends Operator<String> {
         //执行登陆操作
         try {
             String content = OkHttpUtil.post(host + "cas/logon.action", params);
+            logger.trace("get the response: {}", content);
             JSONObject jsonObject = JSON.parseObject(content);
             String message = jsonObject.get("message").toString();
             if (message.equals("操作成功!")) return Result.success(message);
             return Result.fail(message);
         } catch (OucException e) {
-            logger.error("login fail: {}", e);
+            logger.error("login fail", e);
             return Result.fail("login fail: " + e);
         } catch (JSONException e) {
-            logger.error("the response format is error: {}", e);
+            logger.error("the response format is error", e);
             return Result.fail("the response format is error: " + e);
         }
     }

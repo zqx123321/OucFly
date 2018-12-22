@@ -68,8 +68,8 @@ public class StudentList extends Operator<List<StudentEntity>> {
             }
             return Result.success(studentEntities);
         } catch (OucException e) {
-            logger.error("get students error: {}", e);
-            return Result.fail("get students error" + e);
+            logger.error("get students error", e);
+            return Result.fail("get students error: " + e);
         } catch (Exception e) {
             return Result.fail("parse response error:" + e);
         }

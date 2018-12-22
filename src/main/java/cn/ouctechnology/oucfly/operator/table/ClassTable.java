@@ -42,6 +42,7 @@ public class ClassTable extends Operator<List<List<List<ClassTableEntity>>>> {
         logger.debug("encode params: {}", params);
         try {
             String content = OkHttpUtil.get(url, refer, params);
+            logger.trace("get the response: {}", content);
             Document document = Jsoup.parse(content);
             Elements elements = document.select("[id^=\"k\"]");
             List<List<List<ClassTableEntity>>> classTable = new ArrayList<>();
@@ -82,9 +83,9 @@ public class ClassTable extends Operator<List<List<List<ClassTableEntity>>>> {
             }
             return Result.success(classTable);
         } catch (OucException e) {
-            return Result.fail("get class table error" + e);
+            return Result.fail("get class table error: " + e);
         } catch (Exception e) {
-            return Result.fail("parse response error" + e);
+            return Result.fail("parse response error: " + e);
         }
     }
 }

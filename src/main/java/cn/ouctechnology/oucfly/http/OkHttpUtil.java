@@ -68,7 +68,7 @@ public class OkHttpUtil {
         if (params != null && !params.equals("")) {
             url += ("?" + params);
         }
-        logger.trace("do http get,url: {}", url);
+        logger.debug("do http get,url: {}", url);
         if (refer != null) {
             builder.header(HttpHeaders.REFERER, refer);
         }
@@ -107,7 +107,7 @@ public class OkHttpUtil {
         if (refer != null) {
             builder.header(HttpHeaders.REFERER, refer);
         }
-        logger.trace("do http post,url: {} ,params: {}", url, params == null ? "" : params.toString());
+        logger.debug("do http post,url: {} ,params: {}", url, params == null ? "" : params.toString());
         builder.url(url);
         Request request =builder.build();
         return doHttpRequest(request);
@@ -150,7 +150,7 @@ public class OkHttpUtil {
             HttpResponse response = httpClient.execute(httpPost);
             return EntityUtils.toString(response.getEntity());
         } catch (IOException e) {
-            logger.error("IOError: {}", e);
+            logger.error("IOError", e);
             throw new OucException("IOError", e);
         }
     }
@@ -160,7 +160,7 @@ public class OkHttpUtil {
             Response response = client.newCall(request).execute();
             return parseResponse(response);
         } catch (IOException e) {
-            logger.error("IOError:{}", e);
+            logger.error("IOError", e);
             throw new OucException("IOError", e);
         }
 

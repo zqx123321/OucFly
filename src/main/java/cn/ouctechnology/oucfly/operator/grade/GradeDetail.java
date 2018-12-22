@@ -67,7 +67,7 @@ public class GradeDetail extends Grade<List<GradeDetailEntity>> {
             }
             return Result.success(gradeDetailEntities);
         } catch (Exception e) {
-            logger.error("parse the response error: {}", e);
+            logger.error("parse the response error", e);
             return Result.fail("parse the response error: " + e);
         }
     }
