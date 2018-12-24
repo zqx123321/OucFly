@@ -11,7 +11,7 @@
     </appender>
 
     <!-- 日志输出级别 -->
-    <root level="debug"><!-- ERROR、WARN、INFO、DEBUG -->
+    <root level="info"><!-- ERROR、WARN、INFO、DEBUG -->
         <appender-ref ref="STDOUT"/>
     </root>
 </configuration>
