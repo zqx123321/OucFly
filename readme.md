@@ -85,7 +85,7 @@ OucFly的使用方式非常简单，仅仅需要短短的几行代码，就能�
 
 ```java
 //通过Builder来创建OucFly对象，传入学号和教务处密码
-OucFly oucFly = OucFly.builder(userName, passWord).build();
+OucFly oucFly = OucFly.builder(username, password).build();
 //创建成绩详情功能单元
 Operator operator = new GradeDetail(userCode);
 //执行功能单元

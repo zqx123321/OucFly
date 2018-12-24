@@ -51,7 +51,7 @@ public class Coin extends Operator<CoinEntity> {
         logger.debug("encode params: {}", params);
         try {
             String content = OkHttpUtil.get(url, refer, params);
-            logger.info("get the response: {}", content);
+            logger.trace("get the response: {}", content);
             Document document = Jsoup.parse(content);
             Element tbody = document.getElementsByTag("tbody").get(0);
             Elements trs = tbody.getElementsByTag("tr");
