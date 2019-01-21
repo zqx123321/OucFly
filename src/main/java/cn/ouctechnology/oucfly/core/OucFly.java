@@ -95,7 +95,6 @@ public class OucFly {
             } else if (mode == Mode.OUTSIDE_ONLY) {
                 hostSet.clear();
                 hostSet.addHost(Host.JWGL_OUC_EDU_CN);
-                hostSet.addHost(Host.JWGL_2_OUC_EDU_CN);
             }
             OucFly oucFly = new OucFly(username, password, thread, hostSet);
             //测试连接
@@ -158,7 +157,6 @@ public class OucFly {
 
     /**
      * 指定host 的run方法
-     *
      */
     public <T> Result<T> run(Operator<T> operator, String host) {
         operator.setOucFly(this);

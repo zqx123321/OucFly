@@ -56,6 +56,7 @@ public class Query extends Operator<List<QueryEntity>> {
 
     /**
      * 设置当前页
+     *
      * @param page
      * @return
      */
@@ -100,6 +101,7 @@ public class Query extends Operator<List<QueryEntity>> {
             Elements counts = document.select("[name=qdrs]");
             Elements times = document.select("[name=sksj]");
             Elements places = document.select("[name=skdd]");
+            Elements names = document.select("[name=kc]");
 
             List<QueryEntity> queryEntities = new ArrayList<>();
 
@@ -113,6 +115,7 @@ public class Query extends Operator<List<QueryEntity>> {
                 }
                 QueryEntity queryEntity = new QueryEntity();
                 queryEntity.setClassCode(code.text());
+                queryEntity.setClassName(names.get(i).text());
                 queryEntity.setClassSchool(schools.get(i).text());
                 queryEntity.setAllPeople(Integer.parseInt(alls.get(i).text()));
                 queryEntity.setClassHour(Integer.parseInt(hours.get(i).text()));

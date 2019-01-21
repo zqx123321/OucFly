@@ -11,8 +11,10 @@
   <component name="ChangeListManager">
     <list default="true" id="38da40b5-0c44-4364-ac36-a57a0e9c8665" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/ouctechnology/oucfly/operator/coin/Coin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/ouctechnology/oucfly/operator/coin/Coin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/ouctechnology/oucfly/core/OucFly.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/ouctechnology/oucfly/core/OucFly.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/ouctechnology/oucfly/operator/order/ClassOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/ouctechnology/oucfly/operator/order/ClassOrderDirectly.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/ouctechnology/oucfly/operator/query/Query.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/ouctechnology/oucfly/operator/query/Query.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/ouctechnology/oucfly/operator/query/QueryEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/ouctechnology/oucfly/operator/query/QueryEntity.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -50,7 +52,7 @@
     <session id="-592749463">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="21" />
+          <entry key="project.closed" value="23" />
           <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.18" value="1" />
           <entry key="project.open.time.19" value="1" />
@@ -62,10 +64,11 @@
           <entry key="project.open.time.3" value="6" />
           <entry key="project.open.time.30" value="1" />
           <entry key="project.open.time.32" value="1" />
-          <entry key="project.open.time.4" value="2" />
+          <entry key="project.open.time.4" value="3" />
           <entry key="project.open.time.40" value="1" />
           <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="23" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="25" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -74,7 +77,7 @@
           <entry key="class" value="2" />
           <entry key="gitignore" value="1" />
           <entry key="html" value="1" />
-          <entry key="java" value="153" />
+          <entry key="java" value="172" />
           <entry key="md" value="8" />
           <entry key="md5" value="1" />
           <entry key="pom" value="1" />
@@ -86,7 +89,7 @@
         <counts>
           <entry key="CLASS" value="2" />
           <entry key="HTML" value="1" />
-          <entry key="JAVA" value="153" />
+          <entry key="JAVA" value="172" />
           <entry key="Markdown" value="8" />
           <entry key="PLAIN_TEXT" value="3" />
           <entry key="UML" value="3" />
@@ -96,46 +99,52 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="gitignore" value="21" />
-          <entry key="java" value="8361" />
+          <entry key="java" value="9788" />
           <entry key="md" value="75" />
-          <entry key="xml" value="143" />
+          <entry key="xml" value="152" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="8361" />
+          <entry key="JAVA" value="9788" />
           <entry key="Markdown" value="75" />
           <entry key="PLAIN_TEXT" value="21" />
-          <entry key="XML" value="143" />
+          <entry key="XML" value="152" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/ouctechnology/oucfly/operator/coin/CoinClassEntity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="19" column="28" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/cn/ouctechnology/oucfly/OucFlyTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2575">
-              <caret line="103" column="11" selection-start-line="103" selection-start-column="11" selection-end-line="103" selection-end-column="11" />
+            <state relative-caret-position="91">
+              <caret line="33" column="37" selection-start-line="33" selection-start-column="37" selection-end-line="33" selection-end-column="37" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/ouctechnology/oucfly/operator/login/Login.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/ouctechnology/oucfly/operator/order/ClassOrderDirectly.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1525">
-              <caret line="73" column="32" selection-start-line="73" selection-start-column="32" selection-end-line="73" selection-end-column="32" />
+            <state relative-caret-position="326">
+              <caret line="133" column="29" selection-start-line="133" selection-start-column="29" selection-end-line="133" selection-end-column="29" />
+              <folding>
+                <element signature="e#5569#5570#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/ouctechnology/oucfly/operator/order/ClassOrderForEach.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="94">
+              <caret line="51" column="46" selection-start-line="51" selection-start-column="46" selection-end-line="51" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -143,71 +152,62 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/cn/ouctechnology/oucfly/operator/order/ClassOrder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="775">
-              <caret line="47" column="37" selection-start-line="47" selection-start-column="37" selection-end-line="47" selection-end-column="37" />
+            <state relative-caret-position="124">
+              <caret line="30" column="43" lean-forward="true" selection-start-line="30" selection-start-column="43" selection-end-line="30" selection-end-column="43" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/ouctechnology/oucfly/operator/order/ClassOrderParams.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/ouctechnology/oucfly/operator/order/OrderEntity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
+            <state relative-caret-position="171">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/logback.xml">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_152/src.zip!/java/util/ArrayList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="215">
-              <caret line="13" column="21" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="21" />
+            <state relative-caret-position="314">
+              <caret line="176" column="11" selection-start-line="176" selection-start-column="11" selection-end-line="176" selection-end-column="11" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/logback-test.xml">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/ouctechnology/oucfly/operator/student/StudentEntity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="233">
-              <caret line="13" column="21" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/readme.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="112">
-                <caret line="87" column="46" selection-start-line="87" selection-start-column="46" selection-end-line="87" selection-end-column="46" />
-                <folding>
-                  <element signature="e#152#153#0" expanded="true" />
-                  <element signature="e#184#185#0" expanded="true" />
-                  <element signature="e#193#194#0" expanded="true" />
-                  <element signature="e#225#226#0" expanded="true" />
-                </folding>
-              </first_editor>
-              <second_editor />
+            <state relative-caret-position="171">
+              <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/ouctechnology/oucfly/operator/coin/CoinClass.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/ouctechnology/oucfly/operator/student/Student.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="53" column="42" selection-start-line="53" selection-start-column="35" selection-end-line="53" selection-end-column="42" />
+            <state relative-caret-position="47">
+              <caret line="66" selection-start-line="66" selection-end-line="66" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/ouctechnology/oucfly/operator/coin/Coin.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/ouctechnology/oucfly/core/OucFly.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="157">
-              <caret line="49" column="37" selection-start-line="49" selection-start-column="37" selection-end-line="49" selection-end-column="37" />
+            <state relative-caret-position="25">
+              <caret line="152" selection-start-line="152" selection-end-line="152" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/ouctechnology/oucfly/operator/grade/GradeScoreEntity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="163">
+              <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -235,6 +235,7 @@
       <find>trace</find>
       <find>content</find>
       <find>logger.info</find>
+      <find>英语</find>
     </findStrings>
     <replaceStrings>
       <replace>error: &quot;</replace>
@@ -253,11 +254,9 @@
         <option value="$PROJECT_DIR$/src/main/java/cn/ouctechnology/oucfly/operator/grade/GradeCalculator.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/ouctechnology/oucfly/operator/grade/GradeDetail.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/ouctechnology/oucfly/operator/grade/GradeDetailEntity.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/ouctechnology/oucfly/operator/grade/GradeScoreEntity.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/ouctechnology/oucfly/operator/login/LoginParams.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/ouctechnology/oucfly/operator/coin/CoinClass.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/ouctechnology/oucfly/operator/order/OrderEntity.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/ouctechnology/oucfly/operator/query/Query.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/ouctechnology/oucfly/operator/student/StudentEntity.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/ouctechnology/oucfly/operator/student/StudentCode.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/ouctechnology/oucfly/operator/table/ClassTableEntity.java" />
@@ -278,19 +277,24 @@
         <option value="$PROJECT_DIR$/src/main/java/cn/ouctechnology/oucfly/operator/order/MajorOrder.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/ouctechnology/oucfly/operator/exam/Exam.java" />
         <option value="$PROJECT_DIR$/src/test/java/cn/ouctechnology/oucfly/TestDoc.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/ouctechnology/oucfly/operator/query/QueryEntity.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/ouctechnology/oucfly/encryption/EncryptionUtil.java" />
         <option value="$PROJECT_DIR$/src/test/java/cn/ouctechnology/oucfly/TestN.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/ouctechnology/oucfly/operator/table/ClassTable.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/ouctechnology/oucfly/operator/grade/Grade.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/ouctechnology/oucfly/operator/order/ClassOrder.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/ouctechnology/oucfly/operator/login/Login.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/logback.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/logback-test.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/cn/ouctechnology/oucfly/OucFlyTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/ouctechnology/oucfly/operator/coin/Coin.java" />
         <option value="$PROJECT_DIR$/readme.md" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/ouctechnology/oucfly/operator/query/QueryEntity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/ouctechnology/oucfly/operator/query/Query.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/logback.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/logback-test.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/ouctechnology/oucfly/core/OucFly.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/ouctechnology/oucfly/operator/grade/GradeScoreEntity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/ouctechnology/oucfly/operator/order/ClassOrderDirectly.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/ouctechnology/oucfly/operator/order/ClassOrder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/ouctechnology/oucfly/operator/order/ClassOrderForEach.java" />
+        <option value="$PROJECT_DIR$/src/test/java/cn/ouctechnology/oucfly/OucFlyTest.java" />
       </list>
     </option>
   </component>
@@ -374,93 +378,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="oucfly" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ocufly" type="b2602c69:ProjectViewProjectNode" />
-              <item name="oucfly" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="oucfly" type="462c0819:PsiDirectoryNode" />
-              <item name="encryption" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ocufly" type="b2602c69:ProjectViewProjectNode" />
-              <item name="oucfly" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="oucfly" type="462c0819:PsiDirectoryNode" />
-              <item name="exception" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ocufly" type="b2602c69:ProjectViewProjectNode" />
-              <item name="oucfly" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="oucfly" type="462c0819:PsiDirectoryNode" />
-              <item name="http" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ocufly" type="b2602c69:ProjectViewProjectNode" />
-              <item name="oucfly" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="oucfly" type="462c0819:PsiDirectoryNode" />
               <item name="operator" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ocufly" type="b2602c69:ProjectViewProjectNode" />
-              <item name="oucfly" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="oucfly" type="462c0819:PsiDirectoryNode" />
-              <item name="operator" type="462c0819:PsiDirectoryNode" />
-              <item name="coin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ocufly" type="b2602c69:ProjectViewProjectNode" />
-              <item name="oucfly" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="oucfly" type="462c0819:PsiDirectoryNode" />
-              <item name="operator" type="462c0819:PsiDirectoryNode" />
-              <item name="dept" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ocufly" type="b2602c69:ProjectViewProjectNode" />
-              <item name="oucfly" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="oucfly" type="462c0819:PsiDirectoryNode" />
-              <item name="operator" type="462c0819:PsiDirectoryNode" />
-              <item name="exam" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ocufly" type="b2602c69:ProjectViewProjectNode" />
-              <item name="oucfly" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="oucfly" type="462c0819:PsiDirectoryNode" />
-              <item name="operator" type="462c0819:PsiDirectoryNode" />
-              <item name="grade" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ocufly" type="b2602c69:ProjectViewProjectNode" />
-              <item name="oucfly" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="oucfly" type="462c0819:PsiDirectoryNode" />
-              <item name="operator" type="462c0819:PsiDirectoryNode" />
-              <item name="login" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ocufly" type="b2602c69:ProjectViewProjectNode" />
@@ -471,52 +389,6 @@
               <item name="oucfly" type="462c0819:PsiDirectoryNode" />
               <item name="operator" type="462c0819:PsiDirectoryNode" />
               <item name="order" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ocufly" type="b2602c69:ProjectViewProjectNode" />
-              <item name="oucfly" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="oucfly" type="462c0819:PsiDirectoryNode" />
-              <item name="operator" type="462c0819:PsiDirectoryNode" />
-              <item name="query" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ocufly" type="b2602c69:ProjectViewProjectNode" />
-              <item name="oucfly" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="oucfly" type="462c0819:PsiDirectoryNode" />
-              <item name="operator" type="462c0819:PsiDirectoryNode" />
-              <item name="student" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ocufly" type="b2602c69:ProjectViewProjectNode" />
-              <item name="oucfly" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="oucfly" type="462c0819:PsiDirectoryNode" />
-              <item name="operator" type="462c0819:PsiDirectoryNode" />
-              <item name="table" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ocufly" type="b2602c69:ProjectViewProjectNode" />
-              <item name="oucfly" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="oucfly" type="462c0819:PsiDirectoryNode" />
-              <item name="result" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ocufly" type="b2602c69:ProjectViewProjectNode" />
-              <item name="oucfly" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ocufly" type="b2602c69:ProjectViewProjectNode" />
@@ -543,15 +415,15 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="CoinClassEntity&#9;FILE&#9;file://D:/杂乱文件终章/oucfly/src/main/java/cn/ouctechnology/oucfly/operator/coin/CoinClassEntity.java&#10;Lomb&#9;PSI&#9;JAVA://lombok.Lombok&#10;SimpleDateFormat&#9;PSI&#9;JAVA://java.text.SimpleDateFormat&#10;ThreadE&#9;PSI&#9;JAVA://java.util.concurrent.ThreadPoolExecutor&#10;ArrayLi&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_152/src.zip!/java/util/ArrayList.java&#10;List&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_152/src.zip!/java/awt/List.java&#10;Map&#9;PSI&#9;JAVA://java.util.Map&#10;MajorOrder&#9;FILE&#9;file://D:/杂乱文件终章/oucfly/src/main/java/cn/ouctechnology/oucfly/operator/order/MajorOrder.java&#10;CoinC&#9;FILE&#9;file://D:/杂乱文件终章/oucfly/src/main/java/cn/ouctechnology/oucfly/operator/coin/CoinClass.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545658587255" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548064831615" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Artifacts" />
@@ -561,6 +433,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="cn.ouctechnology.oucfly" />
+      <recent name="cn.ouctechnology.oucfly.operator.order" />
       <recent name="cn.ouctechnology.oucfly.operator.student" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
@@ -580,7 +454,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.OucFlyTest.testClassCoin">
+  <component name="RunManager" selected="JUnit.OucFlyTest.testClassOrder">
     <configuration name="OucFlyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="oucfly" />
       <extension name="coverage">
@@ -627,22 +501,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OucFlyTest.testList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="oucfly" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.ouctechnology.oucfly.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="cn.ouctechnology.oucfly" />
-      <option name="MAIN_CLASS_NAME" value="cn.ouctechnology.oucfly.OucFlyTest" />
-      <option name="METHOD_NAME" value="testList" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="OucFlyTest.testOrder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="oucfly" />
       <extension name="coverage">
@@ -659,20 +517,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="OucFlyTest.testQueryClass" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="oucfly" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.ouctechnology.oucfly.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.ouctechnology.oucfly" />
+      <option name="MAIN_CLASS_NAME" value="cn.ouctechnology.oucfly.OucFlyTest" />
+      <option name="METHOD_NAME" value="testQueryClass" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="JUnit.OucFlyTest.testList" />
       <item itemvalue="JUnit.OucFlyTest" />
       <item itemvalue="JUnit.OucFlyTest.testOrder" />
       <item itemvalue="JUnit.OucFlyTest.testClassOrder" />
       <item itemvalue="JUnit.OucFlyTest.testClassCoin" />
+      <item itemvalue="JUnit.OucFlyTest.testQueryClass" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.OucFlyTest.testClassCoin" />
         <item itemvalue="JUnit.OucFlyTest.testClassOrder" />
+        <item itemvalue="JUnit.OucFlyTest.testQueryClass" />
+        <item itemvalue="JUnit.OucFlyTest.testClassCoin" />
         <item itemvalue="JUnit.OucFlyTest.testOrder" />
         <item itemvalue="JUnit.OucFlyTest" />
-        <item itemvalue="JUnit.OucFlyTest.testList" />
       </list>
     </recent_temporary>
   </component>
@@ -708,44 +582,46 @@
       <workItem from="1545446922071" duration="323000" />
       <workItem from="1545450747588" duration="200000" />
       <workItem from="1545634636317" duration="6631000" />
-      <workItem from="1545660455105" duration="168000" />
+      <workItem from="1545660455105" duration="1697000" />
+      <workItem from="1546068717221" duration="251000" />
+      <workItem from="1548061765186" duration="2976000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="OucFlyTest_testClassOrder - 2018.12.24 at 15h 23m 36s.xml">
+    <history-entry file="OucFlyTest_testQueryClass - 2018.12.29 at 15h 32m 41s.xml">
+      <configuration name="OucFlyTest.testQueryClass" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="OucFlyTest_testQueryClass - 2018.12.29 at 15h 35m 39s.xml">
+      <configuration name="OucFlyTest.testQueryClass" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="OucFlyTest_testClassOrder - 2019.01.21 at 17h 13m 34s.xml">
       <configuration name="OucFlyTest.testClassOrder" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="OucFlyTest_testClassOrder - 2018.12.24 at 15h 27m 42s.xml">
+    <history-entry file="OucFlyTest_testClassOrder - 2019.01.21 at 17h 13m 54s.xml">
       <configuration name="OucFlyTest.testClassOrder" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="OucFlyTest_testClassOrder - 2018.12.24 at 15h 33m 45s.xml">
+    <history-entry file="OucFlyTest_testClassOrder - 2019.01.21 at 17h 15m 00s.xml">
       <configuration name="OucFlyTest.testClassOrder" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="OucFlyTest_testClassOrder - 2018.12.24 at 15h 34m 32s.xml">
+    <history-entry file="OucFlyTest_testClassOrder - 2019.01.21 at 17h 15m 35s.xml">
       <configuration name="OucFlyTest.testClassOrder" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="OucFlyTest_testClassOrder - 2018.12.24 at 15h 36m 03s.xml">
+    <history-entry file="OucFlyTest_testClassOrder - 2019.01.21 at 17h 44m 13s.xml">
       <configuration name="OucFlyTest.testClassOrder" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="OucFlyTest_testClassOrder - 2018.12.24 at 15h 37m 03s.xml">
+    <history-entry file="OucFlyTest_testClassOrder - 2019.01.21 at 17h 45m 23s.xml">
       <configuration name="OucFlyTest.testClassOrder" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="OucFlyTest_testClassOrder - 2018.12.24 at 20h 10m 09s.xml">
+    <history-entry file="OucFlyTest_testClassOrder - 2019.01.21 at 17h 50m 23s.xml">
       <configuration name="OucFlyTest.testClassOrder" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="OucFlyTest_testClassOrder - 2018.12.24 at 20h 10m 39s.xml">
+    <history-entry file="OucFlyTest_testClassOrder - 2019.01.21 at 17h 55m 21s.xml">
       <configuration name="OucFlyTest.testClassOrder" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="OucFlyTest_testClassOrder - 2018.12.24 at 20h 12m 44s.xml">
-      <configuration name="OucFlyTest.testClassOrder" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="OucFlyTest_testClassCoin - 2018.12.24 at 20h 26m 49s.xml">
-      <configuration name="OucFlyTest.testClassCoin" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="81999000" />
+    <option name="totallyTimeSpent" value="86755000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -758,9 +634,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27912253" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2881997" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -769,12 +644,12 @@
       <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32935154" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.5546075" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.53754264" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32935154" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.36348122" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.36348122" />
       <window_info anchor="bottom" id="Tool Output" order="8" weight="0.32935154" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Statistic" order="10" weight="0.6040956" />
@@ -787,7 +662,7 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Maven Projects" order="5" sideWeight="0.49462366" visible="true" weight="0.15658094" />
+      <window_info anchor="right" id="Maven Projects" order="5" sideWeight="0.49462366" visible="true" weight="0.0" />
       <window_info anchor="right" id="Database" order="6" sideWeight="0.4948718" weight="0.32980332" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
@@ -805,86 +680,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/ouctechnology/oucfly/operator/grade/GradeScoreEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/ouctechnology/oucfly/operator/table/ClassTableEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="22" column="1" lean-forward="true" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/ouctechnology/oucfly/operator/order/OrderEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="15" column="13" selection-start-line="13" selection-end-line="21" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/ouctechnology/oucfly/operator/exam/ExamEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="31" lean-forward="true" selection-start-line="10" selection-end-line="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/ouctechnology/oucfly/operator/query/Query.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="28" column="31" lean-forward="true" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/cn/ouctechnology/oucfly/TestDoc.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/cn/ouctechnology/oucfly/readme.md" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/cn/ouctechnology/oucfly/TestN.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/ouctechnology/oucfly/http/OkHttpUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3125">
-          <caret line="156" selection-start-line="156" selection-end-line="156" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/ouctechnology/oucfly/operator/grade/GradeScore.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="50" column="11" selection-start-line="50" selection-start-column="11" selection-end-line="50" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_152/src.zip!/java/lang/Class.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21325">
-          <caret line="926" column="27" selection-start-line="926" selection-start-column="27" selection-end-line="926" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/ouctechnology/oucfly/operator/student/StudentList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1325">
-          <caret line="64" column="36" selection-start-line="64" selection-start-column="36" selection-end-line="64" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_152/src.zip!/java/awt/List.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="2" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_152/src.zip!/java/util/ArrayList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9350">
-          <caret line="410" column="36" selection-start-line="410" selection-start-column="36" selection-end-line="410" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_152/src.zip!/java/util/concurrent/Executors.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2050">
@@ -977,13 +772,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/ouctechnology/oucfly/operator/query/QueryEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="625">
-          <caret line="27" column="10" selection-start-line="27" selection-start-column="10" selection-end-line="27" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_152/src.zip!/java/lang/Float.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="575">
@@ -1068,69 +856,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/cn/ouctechnology/oucfly/OucFlyTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2575">
-          <caret line="103" column="11" selection-start-line="103" selection-start-column="11" selection-end-line="103" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/ouctechnology/oucfly/operator/login/Login.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1525">
-          <caret line="73" column="32" selection-start-line="73" selection-start-column="32" selection-end-line="73" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/ouctechnology/oucfly/operator/order/ClassOrder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="775">
-          <caret line="47" column="37" selection-start-line="47" selection-start-column="37" selection-end-line="47" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/ouctechnology/oucfly/operator/order/ClassOrderParams.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/ouctechnology/oucfly/operator/coin/CoinClassEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="19" column="28" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/ouctechnology/oucfly/operator/coin/CoinClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="53" column="42" selection-start-line="53" selection-start-column="35" selection-end-line="53" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/ouctechnology/oucfly/operator/coin/Coin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="49" column="37" selection-start-line="49" selection-start-column="37" selection-end-line="49" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/logback.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="13" column="21" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/logback-test.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="13" column="21" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/readme.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -1144,6 +869,180 @@
             </folding>
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/ouctechnology/oucfly/operator/coin/CoinClassEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="19" column="28" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/ouctechnology/oucfly/operator/query/Query.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2600">
+          <caret line="117" column="60" selection-start-line="117" selection-start-column="60" selection-end-line="117" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/ouctechnology/oucfly/operator/query/QueryEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="15" column="10" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/ouctechnology/oucfly/operator/login/Login.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1525">
+          <caret line="73" column="32" selection-start-line="73" selection-start-column="32" selection-end-line="73" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/ouctechnology/oucfly/operator/order/ClassOrderParams.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/logback.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="13" column="21" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/ouctechnology/oucfly/operator/coin/CoinClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1000">
+          <caret line="53" column="42" selection-start-line="53" selection-start-column="35" selection-end-line="53" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/ouctechnology/oucfly/operator/coin/Coin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="950">
+          <caret line="49" column="37" selection-start-line="49" selection-start-column="37" selection-end-line="49" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/logback-test.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/ouctechnology/oucfly/operator/Operator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_152/src.zip!/java/util/Queue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="143" column="17" selection-start-line="143" selection-start-column="17" selection-end-line="143" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_152/src.zip!/java/util/AbstractQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="65" column="17" selection-start-line="65" selection-start-column="17" selection-end-line="65" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_152/src.zip!/java/util/concurrent/ConcurrentLinkedQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="104" column="52" lean-forward="true" selection-start-line="104" selection-start-column="52" selection-end-line="104" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/ouctechnology/oucfly/operator/grade/GradeDetailEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/ouctechnology/oucfly/operator/student/StudentEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/ouctechnology/oucfly/operator/grade/GradeScoreEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_152/src.zip!/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="314">
+          <caret line="176" column="11" selection-start-line="176" selection-start-column="11" selection-end-line="176" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/ouctechnology/oucfly/operator/order/OrderEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/ouctechnology/oucfly/operator/order/ClassOrderDirectly.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="133" column="29" selection-start-line="133" selection-start-column="29" selection-end-line="133" selection-end-column="29" />
+          <folding>
+            <element signature="e#5569#5570#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/ouctechnology/oucfly/operator/student/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="47">
+          <caret line="66" selection-start-line="66" selection-end-line="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/ouctechnology/oucfly/core/OucFly.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="152" selection-start-line="152" selection-end-line="152" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/ouctechnology/oucfly/operator/order/ClassOrder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="30" column="43" lean-forward="true" selection-start-line="30" selection-start-column="43" selection-end-line="30" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/ouctechnology/oucfly/operator/order/ClassOrderForEach.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="94">
+          <caret line="51" column="46" selection-start-line="51" selection-start-column="46" selection-end-line="51" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/cn/ouctechnology/oucfly/OucFlyTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="91">
+          <caret line="33" column="37" selection-start-line="33" selection-start-column="37" selection-end-line="33" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

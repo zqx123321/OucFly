@@ -13,6 +13,8 @@ import java.util.List;
 @Data
 public class QueryEntity {
 
+    //课程名称
+    private String className;
     //课程选课号
     private String classCode;
     //课程所在校区
