@@ -103,7 +103,9 @@ public class ClassOrderDirectly extends Operator<OrderEntity> {
         String baseParams = "xn=" + xnXq.getXn() + "&xq=" + xnXq.getXq().ordinal() + "&xh=";
         StudentCode studentCode = new StudentCode(new StudentClassFilter(xnXq, classCode));
         Result<List<String>> studentRes = oucFly.run(studentCode);
-        if (!studentRes.isSuccess()) throw new OucException("get student code fail " + studentRes.getErrorMsg());
+        if (!studentRes.isSuccess()) {
+            throw new OucException("get student code fail " + studentRes.getErrorMsg());
+        }
         List<String> codeList = studentRes.getContent();
         for (String stuCode : codeList) {
             try {
